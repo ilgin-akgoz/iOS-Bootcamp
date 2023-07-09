@@ -13,6 +13,7 @@
 		3A6F73982A58ACC00039065A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6F73962A58ACC00039065A /* Main.storyboard */; };
 		3A6F739A2A58ACC10039065A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A6F73992A58ACC10039065A /* Assets.xcassets */; };
 		3A6F739D2A58ACC10039065A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A6F739B2A58ACC10039065A /* LaunchScreen.storyboard */; };
+		3A6F73A52A58B2050039065A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6F73A42A58B2050039065A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3A6F73992A58ACC10039065A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A6F739C2A58ACC10039065A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A6F739E2A58ACC10039065A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A6F73A42A58B2050039065A /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				3A6F73992A58ACC10039065A /* Assets.xcassets */,
 				3A6F739B2A58ACC10039065A /* LaunchScreen.storyboard */,
 				3A6F739E2A58ACC10039065A /* Info.plist */,
+				3A6F73A42A58B2050039065A /* ResultViewController.swift */,
 			);
 			path = "Project 02 - Rock Paper Scissors App";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				3A6F73952A58ACC00039065A /* ViewController.swift in Sources */,
 				3A6F73912A58ACC00039065A /* AppDelegate.swift in Sources */,
 				3A6F73932A58ACC00039065A /* SceneDelegate.swift in Sources */,
+				3A6F73A52A58B2050039065A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
