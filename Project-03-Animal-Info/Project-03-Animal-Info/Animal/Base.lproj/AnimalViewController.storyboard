@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Animal View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="AnimalViewController" id="BYZ-38-t0r" customClass="AnimalViewController" customModule="Project_03_Animal_Info" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="1100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="u0m-lh-B1F">
+                                <rect key="frame" x="0.0" y="59" width="393" height="1007"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mWs-PM-slm">
+                                        <rect key="frame" x="0.0" y="0.0" width="393" height="1000"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fEb-Jp-bYe" customClass="AnimalView" customModule="Project_03_Animal_Info" customModuleProvider="target">
+                                                <rect key="frame" x="31" y="8" width="150" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="h81-g8-OfP" customClass="AnimalView" customModule="Project_03_Animal_Info" customModuleProvider="target">
+                                                <rect key="frame" x="212" y="8" width="150" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B4y-ro-uVo" customClass="AnimalView" customModule="Project_03_Animal_Info" customModuleProvider="target">
+                                                <rect key="frame" x="31" y="252" width="150" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f5g-Dm-HpN" customClass="AnimalView" customModule="Project_03_Animal_Info" customModuleProvider="target">
+                                                <rect key="frame" x="212" y="252" width="150" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1xk-Q8-LYW" customClass="AnimalView" customModule="Project_03_Animal_Info" customModuleProvider="target">
+                                                <rect key="frame" x="31" y="490" width="150" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1fG-NP-Zyg" customClass="AnimalView" customModule="Project_03_Animal_Info" customModuleProvider="target">
+                                                <rect key="frame" x="31" y="728" width="150" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qq8-JR-o1T" customClass="AnimalView" customModule="Project_03_Animal_Info" customModuleProvider="target">
+                                                <rect key="frame" x="212" y="728" width="150" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0mm-Ql-S5e" customClass="AnimalView" customModule="Project_03_Animal_Info" customModuleProvider="target">
+                                                <rect key="frame" x="212" y="490" width="150" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1000" id="oEX-Mr-fhu"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="mWs-PM-slm" secondAttribute="trailing" id="RKS-rl-9sZ"/>
+                                    <constraint firstAttribute="bottom" secondItem="mWs-PM-slm" secondAttribute="bottom" id="WxO-rl-X9D"/>
+                                    <constraint firstItem="mWs-PM-slm" firstAttribute="leading" secondItem="u0m-lh-B1F" secondAttribute="leading" id="YOc-S2-OG8"/>
+                                    <constraint firstItem="mWs-PM-slm" firstAttribute="top" secondItem="u0m-lh-B1F" secondAttribute="top" id="pkx-YD-DtZ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="u0m-lh-B1F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="1Kp-Cz-oCn"/>
+                            <constraint firstItem="u0m-lh-B1F" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Kac-8V-2jN"/>
+                            <constraint firstItem="u0m-lh-B1F" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="lRX-6g-bOB"/>
+                            <constraint firstItem="mWs-PM-slm" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="uVe-tu-LD4"/>
+                            <constraint firstItem="u0m-lh-B1F" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vhg-nP-VwD"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="393" height="1100"/>
+                    <connections>
+                        <outlet property="cheetahView" destination="fEb-Jp-bYe" id="jCf-l8-ik3"/>
+                        <outlet property="commonOstrichView" destination="qq8-JR-o1T" id="xUz-PP-Pa7"/>
+                        <outlet property="elephantView" destination="h81-g8-OfP" id="N9r-ff-NpU"/>
+                        <outlet property="giraffeView" destination="B4y-ro-uVo" id="h3s-zX-EWZ"/>
+                        <outlet property="gorillaView" destination="f5g-Dm-HpN" id="prY-Ij-qqK"/>
+                        <outlet property="hippopotamusView" destination="1xk-Q8-LYW" id="iIB-OI-wVi"/>
+                        <outlet property="lionView" destination="0mm-Ql-S5e" id="Wqk-Ha-nZf"/>
+                        <outlet property="zebraView" destination="1fG-NP-Zyg" id="Aed-sf-Sj1"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-666.41221374045801" y="-43.661971830985919"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
