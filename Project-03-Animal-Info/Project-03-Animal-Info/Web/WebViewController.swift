@@ -9,13 +9,12 @@ import UIKit
 import WebKit
 
 class WebViewController: UIViewController {
-
     var url: URL?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        guard let url = url else { return }
+        guard let url else { return }
         
         let webView = WKWebView(frame: view.bounds)
         view.addSubview(webView)

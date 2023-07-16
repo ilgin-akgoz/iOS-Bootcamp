@@ -9,21 +9,47 @@
 /* Begin PBXBuildFile section */
 		3A2772E82A609D6C00F8C54C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2772E72A609D6C00F8C54C /* AppDelegate.swift */; };
 		3A2772EA2A609D6C00F8C54C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2772E92A609D6C00F8C54C /* SceneDelegate.swift */; };
-		3A2772EC2A609D6C00F8C54C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2772EB2A609D6C00F8C54C /* ViewController.swift */; };
-		3A2772EF2A609D6C00F8C54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2772ED2A609D6C00F8C54C /* Main.storyboard */; };
+		3A2772EC2A609D6C00F8C54C /* AnimalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2772EB2A609D6C00F8C54C /* AnimalViewController.swift */; };
+		3A2772EF2A609D6C00F8C54C /* AnimalViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2772ED2A609D6C00F8C54C /* AnimalViewController.storyboard */; };
 		3A2772F12A609D6D00F8C54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A2772F02A609D6D00F8C54C /* Assets.xcassets */; };
 		3A2772F42A609D6D00F8C54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2772F22A609D6D00F8C54C /* LaunchScreen.storyboard */; };
+		3A2772FC2A609DB900F8C54C /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2772FB2A609DB900F8C54C /* URLs.swift */; };
+		3A2772FE2A609F6E00F8C54C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2772FD2A609F6E00F8C54C /* WebViewController.swift */; };
+		3A2DD96C2A6428C80033CB1C /* cheetah.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DD9662A641F7F0033CB1C /* cheetah.mp4 */; };
+		3A2DD96D2A6428CB0033CB1C /* elephant.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DD96A2A641F800033CB1C /* elephant.mp4 */; };
+		3A2DD96E2A6428CD0033CB1C /* giraffe.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DD96B2A641F800033CB1C /* giraffe.mp4 */; };
+		3A2DD96F2A6428CF0033CB1C /* gorilla.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DD9642A641F7F0033CB1C /* gorilla.mp4 */; };
+		3A2DD9702A6428D20033CB1C /* hippo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DD9682A641F800033CB1C /* hippo.mp4 */; };
+		3A2DD9712A6428D40033CB1C /* lion.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DD9692A641F800033CB1C /* lion.mp4 */; };
+		3A2DD9722A6428D60033CB1C /* ostrich.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DD9672A641F7F0033CB1C /* ostrich.mp4 */; };
+		3A2DD9732A6428D90033CB1C /* zebra.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3A2DD9652A641F7F0033CB1C /* zebra.mp4 */; };
+		3A3394F62A60A16F00A44081 /* WebViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A3394F52A60A16F00A44081 /* WebViewController.storyboard */; };
+		3A3394F82A60A85E00A44081 /* AnimalView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3A3394F72A60A85E00A44081 /* AnimalView.xib */; };
+		3A3394FA2A60AA0900A44081 /* AnimalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3394F92A60AA0900A44081 /* AnimalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3A2772E42A609D6C00F8C54C /* Project-03-Animal-Info.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project-03-Animal-Info.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2772E72A609D6C00F8C54C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A2772E92A609D6C00F8C54C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A2772EB2A609D6C00F8C54C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3A2772EE2A609D6C00F8C54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3A2772EB2A609D6C00F8C54C /* AnimalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalViewController.swift; sourceTree = "<group>"; };
+		3A2772EE2A609D6C00F8C54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AnimalViewController.storyboard; sourceTree = "<group>"; };
 		3A2772F02A609D6D00F8C54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A2772F32A609D6D00F8C54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3A2772F52A609D6D00F8C54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2772FB2A609DB900F8C54C /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		3A2772FD2A609F6E00F8C54C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3A2DD9642A641F7F0033CB1C /* gorilla.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = gorilla.mp4; sourceTree = "<group>"; };
+		3A2DD9652A641F7F0033CB1C /* zebra.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zebra.mp4; sourceTree = "<group>"; };
+		3A2DD9662A641F7F0033CB1C /* cheetah.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cheetah.mp4; sourceTree = "<group>"; };
+		3A2DD9672A641F7F0033CB1C /* ostrich.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ostrich.mp4; sourceTree = "<group>"; };
+		3A2DD9682A641F800033CB1C /* hippo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = hippo.mp4; sourceTree = "<group>"; };
+		3A2DD9692A641F800033CB1C /* lion.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = lion.mp4; sourceTree = "<group>"; };
+		3A2DD96A2A641F800033CB1C /* elephant.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = elephant.mp4; sourceTree = "<group>"; };
+		3A2DD96B2A641F800033CB1C /* giraffe.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = giraffe.mp4; sourceTree = "<group>"; };
+		3A3394F52A60A16F00A44081 /* WebViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebViewController.storyboard; sourceTree = "<group>"; };
+		3A3394F72A60A85E00A44081 /* AnimalView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimalView.xib; sourceTree = "<group>"; };
+		3A3394F92A60AA0900A44081 /* AnimalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,52 @@
 		3A2772E62A609D6C00F8C54C /* Project-03-Animal-Info */ = {
 			isa = PBXGroup;
 			children = (
+				3A2DD9632A641F700033CB1C /* Videos */,
+				3A2772FB2A609DB900F8C54C /* URLs.swift */,
 				3A2772E72A609D6C00F8C54C /* AppDelegate.swift */,
 				3A2772E92A609D6C00F8C54C /* SceneDelegate.swift */,
-				3A2772EB2A609D6C00F8C54C /* ViewController.swift */,
-				3A2772ED2A609D6C00F8C54C /* Main.storyboard */,
+				3A2772FF2A60A04E00F8C54C /* Animal */,
+				3A3394F42A60A10C00A44081 /* Web */,
 				3A2772F02A609D6D00F8C54C /* Assets.xcassets */,
 				3A2772F22A609D6D00F8C54C /* LaunchScreen.storyboard */,
 				3A2772F52A609D6D00F8C54C /* Info.plist */,
 			);
 			path = "Project-03-Animal-Info";
+			sourceTree = "<group>";
+		};
+		3A2772FF2A60A04E00F8C54C /* Animal */ = {
+			isa = PBXGroup;
+			children = (
+				3A2772ED2A609D6C00F8C54C /* AnimalViewController.storyboard */,
+				3A2772EB2A609D6C00F8C54C /* AnimalViewController.swift */,
+				3A3394F72A60A85E00A44081 /* AnimalView.xib */,
+				3A3394F92A60AA0900A44081 /* AnimalView.swift */,
+			);
+			path = Animal;
+			sourceTree = "<group>";
+		};
+		3A2DD9632A641F700033CB1C /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				3A2DD9662A641F7F0033CB1C /* cheetah.mp4 */,
+				3A2DD96A2A641F800033CB1C /* elephant.mp4 */,
+				3A2DD96B2A641F800033CB1C /* giraffe.mp4 */,
+				3A2DD9642A641F7F0033CB1C /* gorilla.mp4 */,
+				3A2DD9682A641F800033CB1C /* hippo.mp4 */,
+				3A2DD9692A641F800033CB1C /* lion.mp4 */,
+				3A2DD9672A641F7F0033CB1C /* ostrich.mp4 */,
+				3A2DD9652A641F7F0033CB1C /* zebra.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		3A3394F42A60A10C00A44081 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				3A2772FD2A609F6E00F8C54C /* WebViewController.swift */,
+				3A3394F52A60A16F00A44081 /* WebViewController.storyboard */,
+			);
+			path = Web;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +188,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3A2DD9702A6428D20033CB1C /* hippo.mp4 in Resources */,
+				3A2DD9732A6428D90033CB1C /* zebra.mp4 in Resources */,
 				3A2772F42A609D6D00F8C54C /* LaunchScreen.storyboard in Resources */,
+				3A2DD96F2A6428CF0033CB1C /* gorilla.mp4 in Resources */,
 				3A2772F12A609D6D00F8C54C /* Assets.xcassets in Resources */,
-				3A2772EF2A609D6C00F8C54C /* Main.storyboard in Resources */,
+				3A2DD96C2A6428C80033CB1C /* cheetah.mp4 in Resources */,
+				3A2772EF2A609D6C00F8C54C /* AnimalViewController.storyboard in Resources */,
+				3A2DD9722A6428D60033CB1C /* ostrich.mp4 in Resources */,
+				3A2DD96D2A6428CB0033CB1C /* elephant.mp4 in Resources */,
+				3A3394F82A60A85E00A44081 /* AnimalView.xib in Resources */,
+				3A2DD9712A6428D40033CB1C /* lion.mp4 in Resources */,
+				3A2DD96E2A6428CD0033CB1C /* giraffe.mp4 in Resources */,
+				3A3394F62A60A16F00A44081 /* WebViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +211,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A2772EC2A609D6C00F8C54C /* ViewController.swift in Sources */,
+				3A3394FA2A60AA0900A44081 /* AnimalView.swift in Sources */,
+				3A2772EC2A609D6C00F8C54C /* AnimalViewController.swift in Sources */,
 				3A2772E82A609D6C00F8C54C /* AppDelegate.swift in Sources */,
 				3A2772EA2A609D6C00F8C54C /* SceneDelegate.swift in Sources */,
+				3A2772FE2A609F6E00F8C54C /* WebViewController.swift in Sources */,
+				3A2772FC2A609DB900F8C54C /* URLs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3A2772ED2A609D6C00F8C54C /* Main.storyboard */ = {
+		3A2772ED2A609D6C00F8C54C /* AnimalViewController.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3A2772EE2A609D6C00F8C54C /* Base */,
 			);
-			name = Main.storyboard;
+			name = AnimalViewController.storyboard;
 			sourceTree = "<group>";
 		};
 		3A2772F22A609D6D00F8C54C /* LaunchScreen.storyboard */ = {
@@ -292,7 +368,7 @@
 				INFOPLIST_FILE = "Project-03-Animal-Info/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = AnimalViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +396,7 @@
 				INFOPLIST_FILE = "Project-03-Animal-Info/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = AnimalViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
