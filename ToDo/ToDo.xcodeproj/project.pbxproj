@@ -16,6 +16,7 @@
 		3A4426852A799A750047CAFF /* AddToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4426842A799A750047CAFF /* AddToDoViewController.swift */; };
 		3A4426872A799A830047CAFF /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4426862A799A830047CAFF /* DetailViewController.swift */; };
 		3A4426892A799A9F0047CAFF /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A4426882A799A9F0047CAFF /* ToDo.swift */; };
+		3A53E0922A8036BA002CA2FC /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A53E0912A8036BA002CA2FC /* ToDoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3A4426842A799A750047CAFF /* AddToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToDoViewController.swift; sourceTree = "<group>"; };
 		3A4426862A799A830047CAFF /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3A4426882A799A9F0047CAFF /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		3A53E0912A8036BA002CA2FC /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		3A44267D2A7998160047CAFF /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				3A53E0902A80369E002CA2FC /* TableView */,
 				3A44267F2A79998C0047CAFF /* Views */,
 			);
 			path = UI;
@@ -106,6 +109,14 @@
 				3A4426862A799A830047CAFF /* DetailViewController.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		3A53E0902A80369E002CA2FC /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				3A53E0912A8036BA002CA2FC /* ToDoCell.swift */,
+			);
+			path = TableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 			files = (
 				3A4426852A799A750047CAFF /* AddToDoViewController.swift in Sources */,
 				3A4426832A799A170047CAFF /* MainViewController.swift in Sources */,
+				3A53E0922A8036BA002CA2FC /* ToDoCell.swift in Sources */,
 				3A4426872A799A830047CAFF /* DetailViewController.swift in Sources */,
 				3A4426892A799A9F0047CAFF /* ToDo.swift in Sources */,
 				3A4426692A7997FD0047CAFF /* AppDelegate.swift in Sources */,
