@@ -10,6 +10,7 @@ import UIKit
 class DetailViewController: UIViewController {
     @IBOutlet weak var updateToDoField: UITextField!
     var toDo: ToDo?
+    var viewModel = DetailViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,12 +22,7 @@ class DetailViewController: UIViewController {
 
     @IBAction func updateButtonTapped(_ sender: Any) {
         if let updatedToDo = updateToDoField.text {
-            updateToDo(item: updatedToDo)
+            viewModel.updateToDo(item: updatedToDo)
         }
     }
-    
-    private func updateToDo(item: String) {
-        print("Updated to do: \(item)")
-    }
-
 }

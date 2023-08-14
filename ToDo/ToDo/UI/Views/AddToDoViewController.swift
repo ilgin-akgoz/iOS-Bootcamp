@@ -10,17 +10,15 @@ import UIKit
 class AddToDoViewController: UIViewController {
     @IBOutlet weak var addToDoField: UITextField!
     
+    var viewModel = AddToDoViewModel()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
 
     @IBAction func doneButtonTapped(_ sender: Any) {
         if let newToDo = addToDoField.text {
-            addToDo(item: newToDo)
+            viewModel.addToDo(item: newToDo)
         }
-    }
-    
-    private func addToDo(item: String) {
-        print("Added to do: \(item)")
     }
 }

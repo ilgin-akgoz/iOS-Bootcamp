@@ -12,11 +12,23 @@ class MainViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     
     var toDoList = [ToDo]()
+    var viewModel = MainViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setUpSearchBar()
-        setUpTableView()
+        
+        searchBar.delegate = self
+        toDoTableView.dataSource = self
+        toDoTableView.delegate = self
+        
+        _ = viewModel.toDoList.subscribe(onNext: { items in
+            self.toDoList = items
+            self.toDoTableView.reloadData()
+        })
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        viewModel.loadToDos()
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -27,27 +39,11 @@ class MainViewController: UIViewController {
             }
         }
     }
-    
-    private func setUpTableView() {
-        toDoTableView.dataSource = self
-        toDoTableView.delegate = self
-        
-        let todo1 = ToDo(id: 1, name: "Fill out the survey")
-        let todo2 = ToDo(id: 2, name: "Study")
-        let todo3 = ToDo(id: 3, name: "Grocery shopping")
-        toDoList.append(todo1)
-        toDoList.append(todo2)
-        toDoList.append(todo3)
-    }
-    
-    private func setUpSearchBar() {
-        searchBar.delegate = self
-    }
 }
 
 extension MainViewController: UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        print("Search for to do item: \(searchText)")
+        viewModel.search(query: searchText)
     }
 }
 
@@ -78,7 +74,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             alert.addAction(cancelAction)
             
             let yesAction = UIAlertAction(title: "Yes", style: .destructive) { action in
-                
+                self.viewModel.delete(toDo_id: todo.id!)
             }
             alert.addAction(yesAction)
             
