@@ -10,7 +10,7 @@ import Foundation
 class DetailViewModel {
     var toDoRepo = ToDoDaoRepository()
     
-    func updateToDo(item: String) {
-        toDoRepo.updateToDo(item: item)
+    func updateToDo(item: String, id: Int) {
+        toDoRepo.updateToDo(item: item, id: id)
     }
 }

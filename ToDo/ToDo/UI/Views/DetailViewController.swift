@@ -21,8 +21,8 @@ class DetailViewController: UIViewController {
     }
 
     @IBAction func updateButtonTapped(_ sender: Any) {
-        if let updatedToDo = updateToDoField.text {
-            viewModel.updateToDo(item: updatedToDo)
+        if let updatedToDo = updateToDoField.text, let toDo {
+            viewModel.updateToDo(item: updatedToDo, id: toDo.id!)
         }
     }
 }
